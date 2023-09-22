@@ -1,0 +1,88 @@
+.container {
+    text-align: center;
+    font-variant: small-caps;
+    background-color: #fdf0cd;
+    width: 65%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 15px 50px 60px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: 10px solid rgb(231, 208, 167);
+  }
+  
+  .container h1 {
+    margin-bottom: 0;
+  }
+  
+  #images{
+    width: 300px;
+    height: 300px;
+    border: 10px ridge rgb(174,120,3);
+    border-radius: 50px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0px 50px 50px 50px;
+  }
+  
+  .row::after {
+    padding-bottom: 35px;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .flip-container {
+    perspective: 1000;
+    background: transparent;
+    margin: 50px auto 150px auto;
+  }
+  
+  
+  .flip-container:hover .flipper,.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-container {
+    width: 300px;
+    height: 100px;
+  
+  }
+  
+  .flipper {
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+    
+  }
+  
+  .front,.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .front {
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    background-color: #d5be80;
+    width: 300px;
+    height: 300px;
+    border: 10px ridge rgb(174,120,3);
+    border-radius: 50px;
+  }
+  
+  #ingredients{
+    margin-top: 20px;
+    border: 5px solid lightblue;
+  }

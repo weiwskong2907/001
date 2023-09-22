@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/layout.css" rel="stylesheet">
   <link href="/css/styles.css" rel="stylesheet">
+  <link href="/css/faq.css" rel="stylesheet">
   <title>BreadStreet</title>
 </head>
 <body>
-  <div class="header" id="myHeader">
-    <a class="login_logo" href="account.html"><img src="/images/login_logo.png" style="width:40px;height: 40px;float: right;margin-right: 20px;position: relative;"></a>
+  <div class="header" id="seader">
+    <a class="login_logo" href="login.html"><img src="/images/login_logo.png" style="width:40px;height: 40px;float: right;margin-right: 20px;position: relative;"></a>
     <a class="cart" href="cart.html"><img src="/images/add_to_cart.png" style="width:40px;height: 40px;float: right;margin-right: 30px;position: relative;"></a>
     <a class="announcement" href="announcement.html"><img src="/images/bell.png" style="width:40px;height: 40px;float: right;margin-right: 30px;position: relative;"></a>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-    <div id="mySidenav" class="sidenav">
+    <div id="sidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -27,64 +27,76 @@
     <a class="title" href="index.html" class="logo">BreadStreet</a>
     
   </div>
-  
-  <div class="container">
-    <div class="content">
-      <section class="sec1">
-      <h1>FAQ</h1>
-      <p>Some content.. toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye 
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye 
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien 
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye 
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien 
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien 
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien
-        wye toh shien wye v toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye </p>
-      </section>
 
-      <section style="background-color: black;" class="sec2">
-        <h1>urmom</h1>
-        <p>ULADOLALODWAOKDOAKDKOADO JDADKK AKAODKO</p>
-      </section>
-    </div>
+  <div class="container">
+     <section class="sec1">
+      <h1>FAQ</h1>
+      <img id="gif" src="/images/questionmark1.gif">
+     <details>
+      <summary>What are the differnet types of bread?</summary>
+      <p>There are basically three main types of bread, those that are baked in pans because they rise the highest, those that have a medium rise, therefore are baked on cookie sheets or stones such as French breads, some types of Italian and rye breads. The third type are ones that have almost no rise and they are called flatbreads.</p>
+      <div><img id="sample1" src="/images/typesOfBread.png"></div>
+    </details>
+      
+      
+      <details>
+       <summary>Make sure the yeast is still active</summary>
+      <p>The yeast you are using could be old or dead, to tell if the yeast is still active, in a small bowl add a 1/2 cup of water, sprinkle 1 1/2 teaspoons of yeast and a pinch of sugar over the top, stir it up, then let it stand for about 5 minutes.<br/>If the yeast is still active, it will dissolve completely into the water and the liquid will start bubbling.
+        Make sure your water isn't too hot or too cold. Too hot and you will kill the yeast, too cold and it will take a long time for the dough to rise. The perfect temperature is 100-110F.</p>
+        <div><img id="sample1" src="/images/yeast.png"> </div>
+      </details>
+      
+
+      <details>
+      <summary>How do you know when the bread is done?</summary>
+      <p>There are three ways to tell when the bread is done, the first is by looking at the colour of the bread, which is usually a light to dark golden brown (depending on the bread), the second is by knocking on the bottom of the bread, if there is a hollow sound it usually means the bread is done and the third is by the internal temperature which should be 190F (88C) or 200F (93C) for Brioche type breads.</p>
+      <div><img id="sample1" src="/images/breadIsDone.png"></div>
+    </details>
+
+      
+     <details>
+      <summary>What is the best flour to use</summary>
+      <p>I personally use all purpose but if you prefer bread flour works just as well, some people swear by it.It will give your dough a chewier and denser bread.</p>
+      <div><img id="sample1" src="/images/flour.png"></div>
+    </details>
+      
+
+      <details>
+      <summary>Do your cakes come with candles/knife/happy birthday sign?</summary>
+      <p>We provide candles and a knife upon request. Happy birthday signs – we have lasercut signs at RM18.00, we also would be more than happy to pipe a custom message (limited to 40 characters) on a piece of chocolate block at RM7.50+ (6 inch) and RM9.50+ (9 inch).</p>
+     <div><img id="sample1" src="/images/birthdaysign.png"><br/>Happy Birthday Signs</div>
+    </details>
+
+      <details>
+      <summary>Are your baked goods halal?</summary>
+      <p>Our baked goods are made with premium ingredients that are pork-free and alcohol-free.</p>
+      <div><img id="sample1"src="/images/halal.png"></div>
+      </details>
+     
+
+      <details>
+      <summary>How long can the kuihs be kept for?</summary>
+      <p>Given the nature of certain ingredients, kuihs are best consumed within the day of delivery/ pick up. We do not recommend keeping the kuihs overnight and beyond.</p>
+     </details>
+
+     </section>
   </div>
-  
+
+
 
   <footer>
-    <p>FOOTER</p>
+    <h1>BreadStreet</h1>
+    <div class="footer">
+      <ul>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
   </footer>
 
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
 
-
-    window.onscroll = function() {myFunction()};
-
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-}
-    </script>
 
   
 </body>

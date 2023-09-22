@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/layout.css" rel="stylesheet">
+  <link href="/css/ingredients.css" rel="stylesheet">
   <link href="/css/styles.css" rel="stylesheet">
   <title>BreadStreet</title>
 </head>
 <body>
-  <div class="header" id="myHeader">
-    <a class="login_logo" href="account.html"><img src="/images/login_logo.png" style="width:40px;height: 40px;float: right;margin-right: 20px;position: relative;"></a>
+  <div class="header" id="seader">
+    <a class="login_logo" href="login.html"><img src="/images/login_logo.png" style="width:40px;height: 40px;float: right;margin-right: 20px;position: relative;"></a>
     <a class="cart" href="cart.html"><img src="/images/add_to_cart.png" style="width:40px;height: 40px;float: right;margin-right: 30px;position: relative;"></a>
     <a class="announcement" href="announcement.html"><img src="/images/bell.png" style="width:40px;height: 40px;float: right;margin-right: 30px;position: relative;"></a>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-    <div id="mySidenav" class="sidenav">
+    <div id="sidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -27,63 +27,244 @@
     <a class="title" href="index.html" class="logo">BreadStreet</a>
     
   </div>
-  
-  <div class="container">
-    <div class="content">
-      <section class="sec1">
-      <h1>Ingredients</h1>
-      <p>Some content.. toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye 
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye 
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien 
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye 
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien 
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien 
-        wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh 
-        shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye
-        toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien
-        wye toh shien wye v toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye toh shien wye </p>
-      </section>
 
-      <section style="background-color: black;" class="sec2">
-        <h1>urmom</h1>
-        <p>ULADOLALODWAOKDOAKDKOADO JDADKK AKAODKO</p>
-      </section>
+  
+
+  <div class="container">
+    <h1>Ingredients</h1>
+    <img id="ingredients" src="/images/ingredients.gif">
+    <div class="row" >
+        <div class="column">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img id="images" src="/images/butter_bun.png">
+                        <h2 style="color: red;" >01. Butter Bun</h2>
+                    </div>
+                    <div class="back">
+                         <p>-Yeast <br/>.
+                            -Bread Flour<br/>
+                            -Butter<br/>
+                            -Sugar<br/>
+                            -Egg<br/>
+                            -Milk<br/>
+                            -Water<br/>
+                            -Baking soda<br/></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="column">
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img id="images" src="/images/chocolate_bun.png">
+                    <h2 style="color: red;">02. Chocolate Cake</h2>
+                </div>
+                <div class="back">
+                    <p>-Cocoa powder<br/>
+                      -Bread Flour<br/>
+                      -Eggs<br/>
+                      -Milk<br/>
+                      -Water<br/>
+                      -Yeast<br/>
+                      -Chocolate Chip<br/>
+                      -Sugar<br/>
+                      -baking soda<br/></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img id="images" src="/images/matcha_cookies.png">
+                        <h2 style="color: red;">03. Matcha Cookies</h2>
+                    </div>
+                    <div class="back">
+                        <p>-Cocoa powder<br/>
+                          -Matcha tea powder<br/>
+                          -White Chocolate Chip<br/>
+                          -baking  soda<br/>
+                          -brown sugar<br/>
+                          -Eggs<br/></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="column">
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img id="images" src="/images/ginger_biscuit.png">
+                    <h2 style="color: red;">04. Ginger Biscuit</h2>
+                </div>
+                <div class="back">
+                    <p>-salted butter<br/>
+                       -brown sugar<br/>
+                       -fresh ginger<br/>
+                       -golden syrup<br/>
+                       -flour<br/>
+                       -Eggs<br/>
+                       -Baking soda<br/></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img id="images" src="/images/kuih_talam.png">
+                        <h2 style="color: red;">05. Kuih Talam</h2>
+                    </div>
+                    <div class="back">
+                        <p>Green pandan layer<br/>
+                        -rice flour<br/>
+                        -green pea flour<br/>
+                        -tapioca flour<br/>
+                        -sugar<br/>
+                        -pandanus juice (pandan leaves, blend with water)<br/>
+              
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="column">
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img id="images" src="/images/banana_cake.png">
+                    <h2 style="color: red;">06. Banana Cake</h2>
+                </div>
+                <div class="back">
+                    <p>-Brown Sugar<br/>
+                      -Cake flour<br/>
+                      -baking soda<br/>
+                      -Milk<br/>
+                      -Ripe Banana<br/>
+                      -Butter<br/>
+                      -Eggs <br/></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img id="images" src="/images/pikachu_cake.png" >
+                        <h2 style="color: red;">07. Cartoon Designed Cakes</h2>
+                    </div>
+                    <div class="back">
+                        <p>-unsalted butter<br/>
+                          - sugar<br/>
+                          -eggs<br/>
+                          - Cake flour<br/>
+                          - salt<br/>
+                          - pineapple extract<br/>
+                          -drained crushed pineapple<br/></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="column">
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img id="images" src="/images/indulgence_cake.png">
+                    <h2 style="color: red;">08. Chocolate Indulgence Cake</h2>
+                </div>
+                <div class="back">
+                    <p>-milk<br/>
+                      -egg<br/>
+                      -cream cheese-sugar<br/>
+                      -cake flour<br/>
+                      -Chocolate Glaze<br/>
+                      -Dark Chocolate Ganache<br/>
+                      -White Chocolate Ganache<br/>
+                      -Baking soda<br/></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+          <div class="flip-container">
+              <div class="flipper">
+                  <div class="front">
+                      <img id="images" src="/images/kuih_bahulu.png">
+                      <h2 style="color: red;">09. Kuih Bahulu</h2>
+                  </div>
+                  <div class="back">
+                       <p>-Eggs <br/>
+                          -Bread Flour<br/>
+                          -Butter<br/>
+                          -Sugar<br/>
+                          -Salt<br/>
+                          -Cornstarch<br/
+                          -Baking soda<br/></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <div class="column">
+      <div class="flip-container">
+          <div class="flipper">
+              <div class="front">
+                  <img id="images" src="/images/vanilla_mousse.png">
+                  <h2 style="color: red;">10. Vanilla Mousse</h2>
+              </div>
+              <div class="back">
+                  <p>-Vanilla bean<br/>
+                    -Heavy cream<br/>
+                    -Eggs<br/>
+                    -Milk<br/>
+                    -Cornstarch<br/>
+                    -Sugar<br/>
+                    -baking soda<br/></p>
+              </div>
+          </div>
+      </div>
     </div>
   </div>
-  
+  </div>
 
+
+ 
   <footer>
-    <p>FOOTER</p>
+    <h1>BreadStreet</h1>
+    <div class="footer">
+      <ul>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
   </footer>
 
   <script>
     function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("sidenav").style.width = "250px";
     }
     
     function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("sidenav").style.width = "0";
     }
 
-
-    window.onscroll = function() {myFunction()};
-
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-}
     </script>
 
   
