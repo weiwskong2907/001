@@ -1,0 +1,94 @@
+#upper{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    background-image: url(/images/contactus.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    padding: 100px 100px 100px 100px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 100px;
+}
+.container{
+    padding: 0px 100px 100px 0px;
+    margin: 0px 50px 50px 0px;
+}
+.contactpages{
+    margin:0px 40px 20px 20px;
+    width:100px;
+    transition: 1s;
+}
+.contactpages:hover{
+    width:120px;
+    height:120px;
+}
+#divmedia{
+    margin-left:auto;
+    margin-right:auto ;
+    width:50%;
+    height:60%;
+    background-color: #f2dca1;
+    text-align: center;
+    border-radius: 20px;
+    border:solid 3px brown;
+}
+#form{
+    background-color: #f2dca1;
+    margin:20px 0px 0px 100px;
+    padding: 10px 50px 30px 50px;
+    border:solid 10px black;    
+    border-radius: 40px;
+}
+#paragraph{
+    margin-bottom:10px ;
+    border:solid 3px black;
+    border-radius: 30px;
+    text-align: center;
+}
+.box{
+    font-size: 25px;
+    padding:1px 100px 1px 1px;
+    width:55vw;
+    height:30px;
+    text-decoration: underline;
+    border:dashed 3px grey;
+    transition: 1s;
+}
+.box:hover{
+    width:56vw;
+    height:50px;
+}
+
+.forminput{
+    float:inline-end;
+    font-size: 30px;
+    margin:0px 50px 20px 0px;
+}
+.selection{
+    font-size: 20px;
+    padding:1px 100px 1px 1px;
+    width:30vw;
+    height:30px;
+    text-decoration: underline;
+    border:dashed 3px grey;
+    transition: 1s;
+}
+.selection:hover{
+    font-size: 30px;
+    width:40vw;
+    height:40px;
+}
+#textbox{
+    padding:1px 100px 1px 1px;
+    width:40vw;
+    height:80px;
+    text-decoration: underline;
+    border:dashed 3px grey;
+    transition: 1s;
+}
+#submit{
+    padding:10px 10px 10px 10px;
+    font-size: 40px;
+    border: dashed 3px grey;
+    border-radius: 40px;
+}

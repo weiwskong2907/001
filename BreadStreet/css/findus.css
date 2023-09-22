@@ -1,0 +1,102 @@
+#upper{
+   margin-top: 10px;
+   margin-left:10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   padding:50px 50px 50px 50px;
+   background-image:url(/images/findus2.jpeg);
+   background-position: center;
+   background-size: contain;
+   border-radius: 100px;
+}
+#paragraph{
+   color: white;
+   text-align: center;
+   font-size:30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+   margin-top:0px;
+   margin-bottom: 0px;
+   margin-left: 110px;
+   margin-right: 60px;
+   padding:40px 40px 40px 40px;
+}
+#address1{
+   font-family:Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,'Times New Roman',serif;
+   height: 300px;
+   width: 300px;
+   padding-bottom: 40px;
+   background-image:linear-gradient(to right,#99FFCC,#0066FF);
+}
+#address2{
+   height: 300px;
+   width: 300px;
+   padding-bottom: 40px;
+   background-image:linear-gradient(to right,#FFCCFF,#FF5050);
+ }
+ #address3{
+   height: 300px;
+   width: 300px;
+   padding-bottom: 40px;
+   background-image: linear-gradient(to right,#9900FF,#CC00CC);
+ }
+ #address4{
+   height: 300px;
+   width: 300px;
+   padding-bottom: 40px;
+   background-image: linear-gradient(to right,#66FFCC,#FF66FF);
+ }
+ #address5{
+   height: 300px;
+   width: 300px;
+   padding-bottom: 40px;
+   background-image: linear-gradient(to right,#99CCFF,#3366FF);
+ }
+
+ #address6{
+   height: 300px;
+   width: 300px;
+   padding-bottom: 40px;
+   background-image: linear-gradient(to right,#33CCCC,#CCFFFF);
+ }
+
+.address{
+   font-family:Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,'Times New Roman',serif;
+   display:inline-table;
+   clear:both;
+   text-align: center;
+   border-radius: 100px;
+   border:0px;
+   border-style: solid;
+   margin: 50px;
+   margin-left:5px;
+}
+
+img{
+   border-radius:100px;
+   width: 550px;
+   height:500px;
+   transition: width 0.8s,height 0.8s;
+}
+img:hover{
+   width:600px;
+   height:600px;
+}
+
+.link:link{
+   border:solid 3px;
+   color:black;
+   text-decoration: none;
+   border-radius: 10px;
+   background-image: linear-gradient(to right,#FFCCFF,#FFFF00);
+}
+.link:visited{
+   color:black;
+   text-decoration: none;
+   border-radius: 10px;
+}
+.link:hover{
+   background-image:linear-gradient(to right,#CCFFCC,#66CCFF);
+}
+

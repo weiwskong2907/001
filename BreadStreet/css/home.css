@@ -1,0 +1,163 @@
+.content {
+    font-size: large;
+    font-variant: small-caps;
+    text-align:left;
+    color: #54410b;
+}
+
+.sec1 {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(63, 63, 63, 0.5), rgba(94, 90, 90, 0.5)), url(/images/breads1.jpg);
+}
+
+.sec1 h1 {
+    font-size: 3.5em;
+    padding-bottom: 25px;
+
+}
+
+.sec1 p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.findus_button {
+    font-size: 25px;
+    transition: 0.2s;
+    margin-left: 20px;
+    margin-top: 45px;
+    position: absolute;
+    padding: 15px 30px 15px 30px;
+    font-variant: small-caps;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #f2dca1;
+}
+
+.findus_button:hover {
+    background-color: #c7ad63;
+    transform: scale(1.2);
+    color: white;
+}
+
+.sec2 {
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #ffff;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    width: 95%;
+    background-color: #fdf0cd;
+    border-radius: 20px;
+}
+
+.sec2 h1 {
+    color: black;
+    font-size: 2.5em;
+}
+
+.sec2 p {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    color: black;
+    font-variant: normal;
+    font-size: 20px;
+}
+
+.sec3 {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 55px;
+    background-color: #d6bb70;
+}
+
+.sec3 h1 {
+    font-size: 2.5em;
+}
+
+.sec3 p {
+    padding-bottom: 10px;
+}
+
+.sec3 img {
+    border-radius: 10px;
+    transition: transform .2s;
+} 
+
+.sec3 img:hover {
+    transform: scale(1.1);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    padding-bottom: 35px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.products_button {
+    display: inline-block;
+    transition: 0.2s;  
+    padding: 15px;
+    font-variant: small-caps;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #bb9f53;
+}
+
+.products_button:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.sec4 {
+    text-align: center;
+    border-radius: 10px;
+    margin:20px 50px 20px 50px;
+    color: black;
+    border: #dbeec4 solid;
+    padding: 10px 10px 40px 10px;
+    background-color: #f2dca1;
+}
+
+.sec4 p {
+    padding-bottom: 20px;
+    font-variant: normal;
+    font-size: 20px;
+}
+
+.contactus_button {
+    display: inline-block;
+    transition: 0.2s;
+    margin-left: 10;
+    padding:15px;
+    font-variant: small-caps;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(226, 197, 139);
+}
+
+.contactus_button:hover {
+    transform: scale(1.2);
+    color: white;
+}

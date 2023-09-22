@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/home.css" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
+  <title>BreadStreet</title>
+</head>
+<body>
+  <div class="header">
+    <a class="login_logo" href="account.html"><img src="/images/login_logo.png" style="width:40px;height: 40px;float: right;margin-right: 20px;position: relative;"></a>
+    <a class="cart" href="cart.html"><img src="/images/add_to_cart.png" style="width:40px;height: 40px;float: right;margin-right: 30px;position: relative;"></a>
+    <a class="announcement" href="announcement.html"><img src="/images/bell.png" style="width:40px;height: 40px;float: right;margin-right: 30px;position: relative;"></a>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <div id="sidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="ingredients.html">Ingredients</a>
+      <a href="blog.html">Blog</a>
+      <a href="findus.html">Find Us</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="faq.html">FAQ</a>
+      
+    </div>
+    <a class="title" href="home.html" class="logo">BreadStreet</a>
+    
+  </div>
+
+  
+
+  <div class="container">
+    <div class="content">
+      <section class="sec1">
+        <h1>Satisfy your cravings Today</h1>
+        <p>Indulge in our freshly baked bread and satisfy your cravings today. </p>
+        <p>Come visit our bakery and taste the difference.</p>
+        <a href="findus.html" class="findus_button">Find Us</a>
+      </section>  
+
+      <section class="sec2">
+        <h1>About Us</h1>
+        <p>BreadStreet is a bakery located everywhere in Malaysia. We take satisfaction in the fact that all of our baked items are made using only the finest and freshest ingredients. 
+          Our talented bakers and pastry chefs put in endless hours to provide a wide range of delectable sweets that are ideal for any occasion.</p>
+        <p>At BreadStreet, we believe that baking is an art form. That's why we approach each and every one of our creations with the same level of care and attention to detail. 
+          Whether you're looking for a classic loaf of bread or a indulgent dessert, you can trust that our team will deliver nothing but the best. </p>
+        <p>Visit us today to experience the difference for yourself!</p>
+      </section>
+
+      <section class="sec3">
+        <h1>Our Products</h1>
+        <p>We provide a variety of pastries including donuts, cakes, pies, and more. To maintain the pastries freshness and consistency,
+           we bake all of our items in-house, then store them in the refrigerator.</p>
+          <div class="row">
+            <div class="column">
+              <img src="images/pies.jpg" alt="pies" style="width:100%;">
+            </div>
+            <div class="column">
+              <img src="images/cakes.jpg" alt="cakes" style="width:100%;"">
+            </div>
+            <div class="column">
+              <img src="images/donuts.jpeg" alt="donuts" style="width:93%;">
+            </div>
+          </div>
+        <a href="products.html" class="products_button">Order Now</a>
+      </section>
+
+      <section class="sec4">
+        <h1>Have Any Questions? Contact Us Now.</h1>
+        <p>Feel free to contact us today if you have any inquiries. We will assist you right away !</p>
+        <a href="contactus.html" class="contactus_button">CONTACT US</a>
+      </section>
+      
+    </div>
+  </div>
+  
+
+  <footer>
+    <h1>BreadStreet</h1>
+    <div class="footer">
+      <ul>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    function openNav() {
+      document.getElementById("sidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("sidenav").style.width = "0";
+    }
+
+    </script>
+
+  
+</body>
+</html>
+
